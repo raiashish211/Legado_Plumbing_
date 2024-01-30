@@ -1,0 +1,114 @@
+
+.main-container {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+  height: 650px;
+}
+
+.pricing-plan-container {
+  background-color: #004cafb4;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 550px;
+}
+
+.Pricing-container {
+  padding-top: 30px;
+}
+
+.Pricing-container p {
+  margin-bottom: 0%;
+}
+
+.row {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cards {
+  height: 460px;
+  width: 250px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 4% 0;
+  border-bottom: 5px solid #02d421;
+}
+
+.card2 {
+  background-color: #02d421;
+  padding: 20px;
+  margin: 4% 0;
+  border-bottom: 5px solid #004cafb4;
+}
+
+.card3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 4% 0;
+  border-bottom: 5px solid #02d421;
+}
+
+h5 {
+  color: black;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+hr {
+  border-width: 1px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+  margin-left: 11px;
+  margin-top: 24px;
+}
+
+ul li {
+  color: black;
+}
+
+button.btn {
+  border-radius: 0;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+}
+
+.btn1 {
+  background-color: #1877f2;
+  color: white;
+}
+
+.btn2 {
+  background-color: white;
+  color: black;
+}
+
+.btn3 {
+  background-color: #1877f2;
+  color: white;
+}

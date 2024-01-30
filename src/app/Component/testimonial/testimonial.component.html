@@ -1,0 +1,36 @@
+<div class="testimonial-container">
+    <div class="head-section">
+      <p>TESTIMONIALS</p>
+      <h2>Take a Look at What Our Clients Said</h2>
+      <div class="testimonial-content">
+        <div class="left-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="right-content">
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p>Average Rating: 5/5</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="carousel-container">
+        <div class="carousel" *ngFor="let carouselItem of testimonials">
+            <p>{{ carouselItem.text }}</p>
+            <div class="customer-info">
+              <!-- <img src="{{ carouselItem.logo }}" alt="{{ carouselItem.name }} Logo" /> -->
+              <div class="customer-details">
+                <p>{{ carouselItem.name }}</p>
+                <p class="customer-text">{{ carouselItem.customerText }}</p>
+              </div>
+            </div>
+            <hr />
+          </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,39 @@
+
+.blue-container {
+    background-color: #004cafb4;
+    padding: 35px;
+    margin: 20px 100px;
+  }
+  .blue-container p {
+    color: white;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stats-container span {
+    text-align: center;
+  }
+  
+  .white-container {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .client-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .logo {
+    width: calc(33.33% - 20px); /* 20px is the total margin between logos */
+    margin: 10px; /* adjust margin as needed */
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 55%;
+  }
+  

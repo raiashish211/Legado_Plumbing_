@@ -1,0 +1,71 @@
+.about-us-container {
+  display: flex;
+  width: 100%;
+  margin: 10px; /* Add margin directly in CSS */
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  width: 50%;
+  padding: 0 0 0 30px;
+}
+
+.text-container h3 {
+  margin-top: 0;
+  color: darkgrey;
+  font-size: 20px;
+}
+
+.text-container h3:nth-child(2) {
+  color: rgb(5, 216, 5);
+}
+
+.text-container p {
+  font-weight: lighter;
+  font-size: medium;
+}
+
+.info-container {
+  display: flex;
+  width: 100%;
+}
+
+.info-item {
+  width: 50%;
+  text-align: center;
+}
+
+.info-item img {
+  margin-bottom: 10px;
+}
+
+.info-item div {
+  background-color: #004cafb4;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  display: inline-block;
+}
+
+.info-item img {
+  width: 100%;
+}
+
+.read-more-btn {
+  padding: 6px 20px;
+  background-color: #004cafb4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+

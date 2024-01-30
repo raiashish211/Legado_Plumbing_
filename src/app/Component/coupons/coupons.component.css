@@ -1,0 +1,192 @@
+
+.coupon-container {
+    padding: 20px;
+    /* background-color: #F0F8FF;
+border: 2px solid #87CEEB;
+border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .coupon-header {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+  .thirdlinetext {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .green-text {
+    color: #12FD12;
+    font-size: large;
+    font-weight: bold;
+  }
+  .coupon-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 90%;
+    margin: 0 5%;
+  }
+  .coupon-card {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin-right: 5px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    outline: 2px dashed black;
+    outline-offset: -7px;
+  }
+  .half-circle {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: -3%;
+  }
+.half-circle1 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    left: 57%;
+  }
+.half-circle2 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+  }
+  .half-circle::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 0 50% 50% 0;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    z-index: -1;
+  }
+  .coupon-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background-color: #87CEEB;
+    transform: translateX(-50%);
+  }
+  .coupon-card:first-child::before {
+    display: none;
+  }
+  .coupon-card h1 {
+    font-size: 24px;
+    color: #0000CD;
+  }
+  .coupon-offer {
+    margin-top: 10px;
+    color: red;
+  }
+  .coupon-description {
+    margin-top: 10px;
+    color: red;
+  }
+  .coupon-button {
+    margin-top: 15px;
+    background-color: #004cafb4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .second-coupon-card {
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    margin-left: 5px;
+    background-color:#FDDC43 ;
+    border-radius: 8px;
+    outline: 3px dashed black;
+    outline-offset: -7px;
+  }
+  .second-coupon-card:before {
+    background: white;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 35%;
+    width: 25px;
+    height: 50px;
+    border-radius: 0 150px 150px 0;
+  }
+  .second-coupon-card h1 {
+    font-size: 24px;
+    color: #0000CD;
+  }
+  .second-coupon-card .coupon-offer {
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
+  }
+  .second-coupon-card .coupon-description {
+    margin-top: 10px;
+    color: red;
+  }
+  .second-coupon-card .coupon-button {
+    margin-top: 15px;
+    background-color: #fff;
+    color: rgb(23, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .vl {
+    border-left: 1px solid black;
+    height: 80%;
+    margin-top: 5%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .coupon-card {
+    flex: 1.6;
+    background-color: skyblue;
+  }
+  /* trial */
+  .card {
+    height: 190px;
+    background: #070B32;
+    width: 360px;
+    position: relative;
+  }
+  .card:before {
+    background: white;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 35%;
+    width: 25px;
+    height: 50px;
+    border-radius: 0 150px 150px 0;
+  }
+  .left-section,
+  .right-section {
+    flex: 1;
+    padding: 20px;
+  }

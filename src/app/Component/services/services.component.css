@@ -1,0 +1,126 @@
+.services-container {
+    position: relative;
+}
+
+.background-gradient {
+    background-size: cover;
+    background-image: url(../../../assets/imgandlogo/service-bg.jpg);
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 1;
+}
+
+.shadow {
+    background: linear-gradient(to right, #456693, #19E702);
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.explore-section {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.explore-heading,
+.our-services-heading {
+    color: white;
+}
+
+.our-services-heading {
+    font-weight: bolder;
+    font-size: x-large;
+}
+.description-section {
+    color: white;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.logo-container {
+    color: white;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    text-align: left;
+    background: rgba(55, 54, 54, 0.4);
+    padding: 20px;
+    border-radius: 0px;
+    color: white;
+}
+.card p{
+    font-weight: lighter;
+}
+
+p {
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.card img {
+    height: 10%;
+    background-color: #004cafb4;
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    padding: 3%;
+}
+.card button {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+h3{
+    color: #19E702 ;
+}
+
+/*  */
+.maintenance-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.maintenance-button {
+    background: none;
+    border: 1px solid white; 
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px; 
+}
+
+.contact-number {
+    color: white;
+}
+
+.maintenance-button-container img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+
